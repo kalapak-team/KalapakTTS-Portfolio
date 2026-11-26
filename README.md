@@ -27,6 +27,7 @@ The Windows download link is a placeholder for the studio. macOS and Linux are m
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Kantumruy Pro](https://fonts.google.com/specimen/Kantumruy+Pro) for Khmer typography
 - [Lucide](https://lucide.dev/) icons
 - [flag-icons](https://github.com/lipis/flag-icons) language flags
 

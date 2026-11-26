@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { Kantumruy_Pro } from "next/font/google";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
+
+const kantumruyPro = Kantumruy_Pro({
+  subsets: ["khmer", "latin"],
+  variable: "--font-kantumruy-pro",
+  display: "swap",
+});
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
@@ -36,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={kantumruyPro.variable}>{children}</body>
     </html>
   );
 }

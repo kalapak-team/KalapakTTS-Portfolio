@@ -30,6 +30,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+:lang(km) {
+  font-family: var(--font-kantumruy-pro), Arial, sans-serif;
+}
+
 button,
 textarea,
 input {
